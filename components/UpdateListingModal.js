@@ -29,7 +29,7 @@ export default function UpdateListingModal({
     const { runContractFunction: updateListing } = useWeb3Contract({
         abi: nftMarketplaceAbi,
         contractAddress: marketplaceAddress,
-        functionName: "updateListing",
+        functionName: "udpateListing",
         params: {
             nftAddress: nftAddress,
             tokenId: tokenId,

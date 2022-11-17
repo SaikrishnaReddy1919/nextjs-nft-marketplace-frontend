@@ -161,6 +161,7 @@
         "constant": false,
         "stateMutability": "payable",
         "payable": true,
+        "gas": 29000000,
         "inputs": [
             {
                 "type": "address",
@@ -178,6 +179,7 @@
         "name": "cancelListing",
         "constant": false,
         "payable": false,
+        "gas": 29000000,
         "inputs": [
             {
                 "type": "address",
@@ -196,6 +198,7 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
+        "gas": 29000000,
         "inputs": [
             {
                 "type": "address",
@@ -228,6 +231,7 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
+        "gas": 29000000,
         "inputs": [
             {
                 "type": "address",
@@ -245,6 +249,7 @@
         "name": "listItem",
         "constant": false,
         "payable": false,
+        "gas": 29000000,
         "inputs": [
             {
                 "type": "address",
@@ -266,6 +271,7 @@
         "name": "udpateListing",
         "constant": false,
         "payable": false,
+        "gas": 29000000,
         "inputs": [
             {
                 "type": "address",
@@ -287,6 +293,7 @@
         "name": "withdrawProceeds",
         "constant": false,
         "payable": false,
+        "gas": 29000000,
         "inputs": [],
         "outputs": []
     }
