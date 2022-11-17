@@ -7,8 +7,8 @@
 In it's own terminal / command line, run: 
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-nft-marketplace-fcc
-cd hardhat-nextjs-nft-marketplace-fcc
+git clone https://github.com/SaikrishnaReddy1919/nextjs-nft-marketplace-frontend.git
+cd nextjs-nft-marketplace-frontend
 yarn
 ```
 
@@ -24,12 +24,12 @@ yarn hardhat deploy --network goerli
 
 ```
 cd ..
-git clone https://github.com/PatrickAlphaC/graph-nft-marketplace-fcc
-cd graph-nft-marketplace-fcc
+git clone https://github.com/SaikrishnaReddy1919/the-graph-nft-markeplace.git
+cd the-graph-nft-markeplace
 yarn
 ```
 
-Follow the instructions of the [README](https://github.com/PatrickAlphaC/graph-nft-marketplace-fcc/blob/main/README.md) of that repo. 
+Follow the instructions of the [README](https://github.com/SaikrishnaReddy1919/the-graph-nft-markeplace/blob/main/README.md) of that repo. 
 
 Then, make a `.env` file and place your temporary query URL into it as `NEXT_PUBLIC_SUBGRAPH_URL`.
 
@@ -43,4 +43,8 @@ Make sure that:
 ```
 yarn dev
 ```
+
+
+### INFO - Contracts
+- This repo uses the contracts which are inside this [repo](https://github.com/SaikrishnaReddy1919/hardhat-nft-marketplace) 
 
