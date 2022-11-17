@@ -11,7 +11,7 @@ export default function Home() {
     const marketplaceAddress = networkMapping[chainString].NftMarketplace[0]
 
     const { loading, error, data: listedNfts } = useQuery(GET_ACTIVE_ITEMS)
-    console.log(error, "Error while querying listednfts data")
+    console.log(error, listedNfts, loading, "Error while querying listednfts data")
 
     return (
         <div className="container mx-auto">
